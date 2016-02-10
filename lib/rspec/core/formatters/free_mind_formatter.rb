@@ -88,6 +88,7 @@ class RSpec::Core::Formatters::FreeMindFormatter < RSpec::Core::Formatters::Base
   # end
 
   def example_passed(passed)
+    super
     puts_example(passed)
   end
 
